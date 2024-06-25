@@ -1,13 +1,35 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Light Mode Colors */
+:root {
+  --bg-color: #ffffff;
+  --text-color: #1f2937;
+  --bg-muted: #f3f4f6;
+  --bg-primary: #3b82f6;
+  --text-primary-foreground: #ffffff;
+  --bg-secondary: #e5e7eb;
+  --text-secondary-foreground: #1f2937;
+  --bg-card: #ffffff;
+  --text-card-foreground: #1f2937;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Dark Mode Colors */
+.dark {
+  --bg-color: #1a202c;
+  --text-color: #cbd5e0;
+  --bg-muted: #2d3748;
+  --bg-primary: #4a5568;
+  --text-primary-foreground: #ffffff;
+  --bg-secondary: #2c5282;
+  --text-secondary-foreground: #cbd5e0;
+  --bg-card: #2d3748;
+  --text-card-foreground: #cbd5e0;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
 }

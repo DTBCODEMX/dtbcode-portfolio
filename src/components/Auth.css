@@ -1,0 +1,52 @@
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 16px;
+    background: linear-gradient(135deg, #f3e5f5, #e1bee7);
+  }
+  
+  .auth-container.dark {
+    background: linear-gradient(135deg, #2d2d2d, #434343);
+  }
+  
+  .auth-form {
+    max-width: 400px;
+    width: 100%;
+    padding: 30px;
+    background-color: var(--bg-card, #ffffff);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .auth-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--text-color, #673ab7);
+  }
+  
+  .auth-button {
+    background: linear-gradient(45deg, #673ab7, #9c27b0);
+    color: white;
+    border-radius: 25px;
+    padding: 10px 0;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .auth-button:hover {
+    background: linear-gradient(45deg, #5e35b1, #8e24aa);
+  }
+  
+  .MuiInputAdornment-root {
+    color: var(--text-color, #673ab7);
+  }
+  
+  .MuiLink-root {
+    color: var(--text-color, #9c27b0);
+  }
+  
+  .MuiLink-root:hover {
+    text-decoration: underline;
+  }
+  

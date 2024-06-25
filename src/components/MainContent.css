@@ -1,0 +1,64 @@
+.custom-button {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.custom-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.blue-button {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+.blue-button:hover {
+  background-color: #1976d2;
+}
+
+.green-button {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.green-button:hover {
+  background-color: #388e3c;
+}
+
+.feature-card {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.feature-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+.icon {
+  font-size: 2rem;
+}
+
+.blue-icon {
+  color: #2196f3;
+}
+
+.green-icon {
+  color: #4caf50;
+}
+
+.yellow-icon {
+  color: #ffeb3b;
+}
+
+.red-icon {
+  color: #f44336;
+}
+
+.purple-icon {
+  color: #9c27b0;
+}
+
+.orange-icon {
+  color: #ff9800;
+}

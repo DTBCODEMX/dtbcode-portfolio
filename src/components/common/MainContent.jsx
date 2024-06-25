@@ -69,7 +69,9 @@ const MainContent = () => {
         <FeatureCard
           icon={<FaFileAlt className="icon orange-icon" />}
           title="Plantillas Personalizadas"
-          description="Crea y guarda tus propias plantillas de eventos para ahorrar tiempo."
+          description="Crea y guarda tus propias plantillas de eventos para ahorrar tiempo.
+          .
+          "
         />
       </Box>
     </Box>

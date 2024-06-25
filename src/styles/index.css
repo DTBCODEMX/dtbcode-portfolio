@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.light-mode {
+  background-color: #f0f0f0;
+  color: #000000;
+}
+
+.dark-mode {
+  background-color: #303030;
+  color: #ffffff;
+}
+
+.high-contrast-mode {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.auth-container.light-mode {
+  background-color: #ffffff;
+}
+
+.auth-container.dark-mode {
+  background-color: #424242;
+}
+
+.auth-container.high-contrast-mode {
+  background-color: #000000;
+}
+
+.auth-form {
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.auth-button {
+  background: linear-gradient(to right, #6200ea, #03dac6);
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.auth-button:hover {
+  background: linear-gradient(to right, #5b00d6, #02c4b3);
+}
+
+.auth-title {
+  font-weight: bold;
+}

@@ -1,0 +1,64 @@
+[debug] [2024-06-25T21:34:27.272Z] ----------------------------------------------------------------------
+[debug] [2024-06-25T21:34:27.275Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\damia\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-06-25T21:34:27.275Z] CLI Version:   13.11.4
+[debug] [2024-06-25T21:34:27.276Z] Platform:      win32
+[debug] [2024-06-25T21:34:27.276Z] Node Version:  v22.2.0
+[debug] [2024-06-25T21:34:27.276Z] Time:          Tue Jun 25 2024 15:34:27 GMT-0600 (hora estándar central)
+[debug] [2024-06-25T21:34:27.276Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-06-25T21:34:27.284Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-06-25T21:34:27.285Z] > authorizing via signed-in user (dtbcodemxcc@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\damia\OneDrive\Documentos\GitHub\DTBCODE\dtbcode-portfolio
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-06-25T21:35:24.481Z] > refreshing access token with scopes: []
+[debug] [2024-06-25T21:35:24.483Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-06-25T21:35:24.483Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-06-25T21:35:24.692Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 400
+[debug] [2024-06-25T21:35:24.692Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-06-25T21:35:24.693Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-06-25T21:35:24.918Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 401
+[debug] [2024-06-25T21:35:24.918Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2024-06-25T21:35:24.918Z] HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2024-06-25T21:35:25.092Z] FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+    at responseToError (C:\Users\damia\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\damia\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:305:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
+[debug] [2024-06-25T21:39:02.276Z] ----------------------------------------------------------------------
+[debug] [2024-06-25T21:39:02.278Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\damia\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-06-25T21:39:02.279Z] CLI Version:   13.11.4
+[debug] [2024-06-25T21:39:02.279Z] Platform:      win32
+[debug] [2024-06-25T21:39:02.279Z] Node Version:  v22.2.0
+[debug] [2024-06-25T21:39:02.279Z] Time:          Tue Jun 25 2024 15:39:02 GMT-0600 (hora estándar central)
+[debug] [2024-06-25T21:39:02.279Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-06-25T21:39:02.287Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-06-25T21:39:02.288Z] > authorizing via signed-in user (dtbcodemxcc@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\damia\OneDrive\Documentos\GitHub\DTBCODE\dtbcode-portfolio
+

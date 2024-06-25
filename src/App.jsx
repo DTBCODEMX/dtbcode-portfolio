@@ -1,27 +1,32 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './components/Header';
-import MainContent from './components/MainContent';
-import Footer from './components/Footer';
-import Login from './components/Login';
-import Register from './components/Register';
-import ColorModeProvider from './ToggleColorMode';
-import './index.css';
+import Header from './components/common/Header';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { TranslationProvider } from './TranslationContext';
+import ToggleColorMode from './theme/ToggleColorMode';
+import Login from './components/auth/Login';
+import Register from './components/auth/Register';
+import PasswordRecovery from './components/auth/PasswordRecovery';
+import MainContent from './components/common/MainContent';
+import { AuthProvider } from './AuthContext';
 
 function App() {
-  return (
-    <ColorModeProvider>
-      <Router>
-        <Header />
-        <Routes>
-          <Route path="/" element={<MainContent />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/register" element={<Register />} />
-        </Routes>
-        <Footer />
-      </Router>
-    </ColorModeProvider>
-  );
-}
-
-export default App;
+    return (
+      <TranslationProvider>
+        <ToggleColorMode>
+          <AuthProvider>
+            <Router>
+              <Header />
+              <Routes>
+                <Route path="/" element={<MainContent />} />
+                <Route path="/login" element={<Login />} />
+                <Route path="/register" element={<Register />} />
+                <Route path="/password-recovery" element={<PasswordRecovery />} />
+              </Routes>
+            </Router>
+          </AuthProvider>
+        </ToggleColorMode>
+      </TranslationProvider>
+    );
+  }
+  
+  export default App;
